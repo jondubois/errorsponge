@@ -27,9 +27,13 @@ The `options` object is optional and can have the following properties:
 Convert a JavaScript Error object into a serializable JSON object which can then easily be converted into a string using `JSON.stringify()` and sent across the network.
 If `includeStackTrace` is specified and set to true, the error's stack trace will be included as part of the dehydrated JSON object.
 
+Returns a plain JavaScript Object.
+
 ### hydrateError(dehydratedError)
 
 Convert a dehydrated JSON error back into a JavaScript Error object.
+
+Returns a JavaScript Error object.
 
 ## Conventions
 
