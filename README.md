@@ -15,7 +15,7 @@ npm install errorsponge
 var ErrorSponge = require('errorsponge').ErrorSponge;
 ```
 
-# new ErrorSponge([options])
+### new ErrorSponge([options])
 
 Create a new ErrorSponge utility to dehydrate and hydrate errors.
 The `options` object is optional and can have the following properties:
